@@ -1,0 +1,53 @@
+
+.topBar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.topLink{
+    text-decoration: none;
+    color: white;
+}
+
+a:visited{
+    text-decoration: none; 
+}
+
+.header {
+    background-color: #5e80bf;
+}
+
+.stories{
+    background-color: #1f2124;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.story{
+    display: flex;
+    justify-content: flex-start;
+    align-items: normal;
+}
+
+.stories:hover{
+    overflow: scroll;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    /* text-overflow: clip; */
+}
+
+.Posts{
+    background-color: #1f2124;
+}
+
+.post{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
